@@ -1,0 +1,172 @@
+body{
+    background: #222222;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.menu-links{
+    float: right;
+}
+.menu-main-link{
+   color: white;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 20px;
+}
+.menu-links a{
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 20px;
+    padding: 5px;
+}
+.menu-links a:hover{
+    color: aquamarine;
+}
+.robot-container a{
+    text-decoration: none;
+    padding: 20px 40px;
+    display: inline-block;
+    background: linear-gradient(45deg, #65DAFF, #70FFCB);
+    color: white;
+}
+.robot{
+    background: url(img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg) center/cover no-repeat;
+    height: 100vh;
+}
+.robot-container{
+    position: absolute;
+    top: 50% ;
+    transform: translateY(-50%);
+    left: 5%;
+ }
+ .robot-container h1{
+    font-size: 50px; 
+ }
+ .robot-container h2{
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ .games-container{
+    box-shadow: 0px 0px 10px black;
+ }
+ .games{
+ }
+ .section-title{
+    font-size: 28px;
+    text-align: center;
+    margin: 20px auto;
+    margin-bottom: 20px;
+    color: #65DAFF;
+ }
+.icons-card{
+    display: inline-block;
+    margin: 10px;
+    width: 20%;
+    color: #65DAFF;
+    vertical-align: top;
+}
+.icons{
+    text-align: center;
+    padding: 80px;
+}
+.icons img{
+    width: 60%;
+    height: 120px;
+}
+.games-card-info h3{
+color: #65DAFF;
+}
+.games-card-info hr{
+color: #65DAFF;
+width: 50px;
+}
+.games-card-info{
+    width: 49%;
+    display: inline-block;
+    height: 300px;
+    vertical-align: top;
+    
+}
+.games-card-img{
+    width: 49%;
+    height: 300px;
+    display: inline-block;
+}
+.gci1{
+    background: url(img/csgo.jpg)center/cover no-repeat;
+}
+.gci2{
+    background: url(img/dota2.jpg)center/cover no-repeat;
+}
+.gci3{
+    background: url(img/apex.jpg)center/cover no-repeat;
+}
+.games-card-info h3{
+    color: #65DAFF;
+}
+.games-card-info hr{
+    margin: 10px 0;
+    height: 5px;
+    background-color: #65DAFF;
+    width: 80px;
+}
+.games-card-info p{
+    color: white;
+}
+.games-card-info{
+    padding: 10px;
+}
+.competition{
+    padding: 50px;
+    text-align: center;
+}
+.competition p{
+    color: white;
+}
+.go hr{
+    background-color: white;
+    width: 200px;
+    height:3px;
+    margin: auto;
+}
+.click{
+    background-color: #65DAFF;
+    height: 100px;
+    width: 70%;
+    margin: 15px auto;
+    position: relative;
+}
+.here{
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    color: white;
+}
+.go-link{
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 40px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
